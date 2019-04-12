@@ -2,23 +2,22 @@
 A Bayes Classifier that can be trained to classify vehicles as BUS, CAR or TRUCK. 
   
 function M = CS6640_MM(vidObj)
-
-%segments moving objects in video
+    %segments moving objects in video
 
 function object_data_list = CS6640_extract_features(videos)
 
-%extract features from objects identified by CS6640_MM(vidObj)
+    %extract features from objects identified by CS6640_MM(vidObj)
 
     
 function model = CS6640_build_Bayes(X)
 
-%build Bayes model for test dataset X
+    %build Bayes model for test dataset X
 
     
 function best_class = CS6640_Bayes(x,class_probs,class_models)
 
-%Bayes classifier
+    %Bayes classifier
 
 CS6640_Bayes_Test
 
-%test script that generate classes from training data and tesing it against the test data
+    %test script that generate classes from training data and tesing it against the test data
