@@ -1,7 +1,8 @@
 # BayesVehicleClassifier
 A Bayes Classifier that can be trained to classify vehicles as BUS, CAR or TRUCK. 
-  
+
 function M = CS6640_MM(vidObj)
+
     %segments moving objects in video
 
 function object_data_list = CS6640_extract_features(videos)
