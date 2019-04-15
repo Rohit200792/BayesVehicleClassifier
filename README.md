@@ -21,4 +21,4 @@ function best_class = CS6640_Bayes(x,class_probs,class_models)
 
 CS6640_Bayes_Test
 
-    %test script that generate classes from training data and tesing it against the test data
+    %test script that generates vehicle classes from training data and tests it against the test data
